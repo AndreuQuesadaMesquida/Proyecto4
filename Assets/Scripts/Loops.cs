@@ -67,15 +67,33 @@ public class Loops : MonoBehaviour
         }*/
 
         // 2.
-       /*for (int i = 1; i <= 100; i ++)
-       {
-           Debug.Log($"{i % 2}");
-       }*/
+        /*for (int i = 1; i <= 100; i ++)
+        {
+             if (i % 2 == 0)
+             {
+                 Debug.Log(i);
+             }
+        }*/
 
+        // 3.
+        /*for (int i = 1; i <= 100; i++)
+            if (i % 2 != 0)
+            {
+                Debug.Log(i);
+            }*/
+
+        int suma = 0;
         // 4.
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                suma += i;
+            }
 
+            Debug.Log(suma);
+        }
 
-
+        // 5.
 
     }
 }
